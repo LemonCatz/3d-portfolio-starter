@@ -7,7 +7,7 @@ import * as THREE from 'three';
 
 const Model: React.FC = () => {
   // This loads your model from the public/models folder.
-  const { scene } = useGLTF("/models/cute_spooky_cat.glb");
+  const { scene } = useGLTF("/models/bananya_birbo.glb");
   
   const modelRef = useRef<THREE.Object3D | null>(null);
   // Animate the model each frame

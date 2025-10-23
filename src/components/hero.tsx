@@ -20,32 +20,32 @@ const Hero: React.FC = () => {
       >
         {/* Replace your name here */}
         <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-          hi, i&apos;m <span className="text-[#04D9FF]">your name</span>
+          Hi, i&apos;m <span className="text-[#5CABFA]">LemonCatz</span>
         </h1>
 
         {/* Replace your role or title here */}
         <h2 className="text-2xl md:text-3xl text-gray-300">
-          a creative <span className="text-[#04D9FF]">developer</span> @ uf
+          A cat <span className="text-[#5CABFA]">lover</span> @ home
         </h2>
 
         {/* Replace this text with your short bio or tagline */}
         <p className="text-gray-400 max-w-lg mx-auto md:mx-0">
-          i build visually stunning web experiences using Next.js, TypeScript, and Three.js.
+          I sleep all day
         </p>
 
         {/* Customize your buttons and links here */}
         <div className="flex justify-center md:justify-start space-x-6 pt-6">
           <a
             href="#projects"
-            className="px-6 py-3 bg-[#04D9FF] text-black font-semibold rounded-lg hover:bg-[#00BFFF] transition-all"
+            className="px-6 py-3 bg-[#5CABFA] text-black font-semibold rounded-lg hover:bg-[#00BFFF] transition-all"
           >
-            view my work
+            View my nonexistent work
           </a>
           <a
             href="#contact"
-            className="px-6 py-3 border border-[#04D9FF] text-[#04D9FF] font-semibold rounded-lg hover:bg-[#04D9FF] hover:text-black transition-all"
+            className="px-6 py-3 border border-[#5CABFA] text-[#5CABFA] font-semibold rounded-lg hover:bg-[#5CABFA] hover:text-black transition-all"
           >
-            contact me
+            Do not contact me
           </a>
         </div>
       </motion.div>

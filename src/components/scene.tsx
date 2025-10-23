@@ -23,7 +23,7 @@ const Scene: React.FC = () => {
           // x: 7 = 7 units to the right
           // y: 2 = 2 units up
           // z: 8 = 8 units away from center
-          fov: 50 // Field of view (50 degrees) - lower = more zoomed in, higher = wider view
+          fov: 80 // Field of view (50 degrees) - lower = more zoomed in, higher = wider view
           // Try: 35-45 for tight zoom, 50-60 for normal, 70+ for wide angle
         }}
       >
@@ -51,7 +51,10 @@ const Scene: React.FC = () => {
 
         {/* OrbitControls: Lets users drag to rotate the model */}
         <OrbitControls 
-          enableZoom={false} // false = disable scroll zoom
+          enableZoom={false}
+          autoRotate={true}
+          autoRotateSpeed={2}
+          // false = disable scroll zoom
           // Set to true if you want zoom enabled
           // Additional options you can add:
           // enablePan={false} - disable right-click drag

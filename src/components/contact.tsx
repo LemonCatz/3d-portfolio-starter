@@ -28,14 +28,14 @@ const ContactForm: React.FC = () => {
     >
       <ScrollReveal>
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-          get in <span className="text-[#04D9FF]">touch</span>
+          Do not message me <span className="text-[#5CABFA]"></span>
         </h2>
       </ScrollReveal>
 
       <ScrollReveal delay={0.2}>
         <motion.form
           onSubmit={handleSubmit}
-          className="max-w-2xl mx-auto bg-gray-900 p-8 rounded-xl space-y-6 shadow-lg hover:shadow-[#04D9FF]/20 transition-all"
+          className="max-w-2xl mx-auto bg-gray-900 p-8 rounded-xl space-y-6 shadow-lg hover:shadow-[#5CABFA]/20 transition-all"
         >
           <input
             type="text"
@@ -43,7 +43,7 @@ const ContactForm: React.FC = () => {
             placeholder="Your Name"
             value={formData.name}
             onChange={handleChange}
-            className="w-full p-3 bg-gray-800 rounded-lg outline-none focus:ring-2 focus:ring-[#04D9FF]"
+            className="w-full p-3 bg-gray-800 rounded-lg outline-none focus:ring-2 focus:ring-[#5CABFA]"
           />
           <input
             type="email"
@@ -51,7 +51,7 @@ const ContactForm: React.FC = () => {
             placeholder="Your Email"
             value={formData.email}
             onChange={handleChange}
-            className="w-full p-3 bg-gray-800 rounded-lg outline-none focus:ring-2 focus:ring-[#04D9FF]"
+            className="w-full p-3 bg-gray-800 rounded-lg outline-none focus:ring-2 focus:ring-[#5CABFA]"
           />
           <textarea
             name="message"
@@ -59,13 +59,13 @@ const ContactForm: React.FC = () => {
             rows={5}
             value={formData.message}
             onChange={handleChange}
-            className="w-full p-3 bg-gray-800 rounded-lg outline-none focus:ring-2 focus:ring-[#04D9FF]"
+            className="w-full p-3 bg-gray-800 rounded-lg outline-none focus:ring-2 focus:ring-[#5CABFA]"
           />
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
             type="submit"
-            className="w-full py-3 bg-[#04D9FF] text-black font-semibold rounded-lg hover:bg-[#00BFFF] transition-all"
+            className="w-full py-3 bg-[#5CABFA] text-black font-semibold rounded-lg hover:bg-[#00BFFF] transition-all"
           >
             send message
           </motion.button>

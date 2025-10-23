@@ -9,17 +9,17 @@ import ScrollReveal from "./scrollReveal";
 const projects = [
   {
     id: 1,
-    title: "DoraBird",
-    description: "Fly through multiple universes with DoraBird!",
-    image: "/images/thumbnaildora.png",
-    link: "https://yourprojectlink.com",
+    title: "I love Arcane",
+    description: "Timebomb forever",
+    image: "/images/Dummy.png",
+    link: "https://www.netflix.com/title/81435684",
   },
   {
     id: 2,
-    title: "DoraBird",
-    description: "Fly through multiple universes with DoraBird!",
-    image: "/images/thumbnaildora.png",
-    link: "https://yourprojectlink.com",
+    title: "Who doesn't love Arcane",
+    description: "JayViktor forever",
+    image: "/images/Viktor.png",
+    link: "https://www.netflix.com/title/81435684",
   },
 ];
 
@@ -31,7 +31,7 @@ const Projects: React.FC = () => {
     >
       <ScrollReveal>
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-          my <span className="text-[#04D9FF]">projects</span>
+          My favorite show <span className="text-[#5CABFA]"></span>
         </h2>
       </ScrollReveal>
 
@@ -45,7 +45,7 @@ const Projects: React.FC = () => {
               whileHover={{ scale: 1.03 }} // scale: 1.03 = grows to 103% size on hover
               // Try: 1.05 for more dramatic, 1.01 for subtle
               transition={{ duration: 0.3 }} // 0.3s hover animation
-              className="bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-[#04D9FF]/20 transition-all"
+              className="bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-[#5CABFA]/20 transition-all"
             >
               <Image
                 src={project.image}
@@ -60,7 +60,7 @@ const Projects: React.FC = () => {
                 <a
                   href={project.link}
                   target="_blank"
-                  className="inline-block mt-4 text-[#04D9FF] hover:underline"
+                  className="inline-block mt-4 text-[#5CABFA] hover:underline"
                 >
                   view project →
                 </a>
