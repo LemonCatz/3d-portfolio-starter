@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
       <p>
         © {new Date().getFullYear()}{" "}
         {/* Replace with your name or portfolio title */}
-        <span className="text-[#5CABFA] font-medium">Your Name</span>. All
+        <span className="text-[#5CABFA] font-medium">LemonCatz</span>. All
         rights reserved.
       </p>
     </motion.footer>
