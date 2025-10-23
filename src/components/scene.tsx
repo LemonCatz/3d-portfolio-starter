@@ -5,6 +5,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
+import { Loader } from "./loader";
 
 // Lazy-load the model to improve performance
 const Model = dynamic(() => import("./model"), { ssr: false });
@@ -45,7 +46,7 @@ const Scene: React.FC = () => {
         />
 
         {/* Load your 3D model here */}
-        <Suspense fallback={"Loader"}>
+        <Suspense fallback={<Loader/>}>
           <Model />
         </Suspense>
 
