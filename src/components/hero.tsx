@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
 
         {/* Replace your role or title here */}
         <h2 className="text-2xl md:text-3xl text-gray-300">
-          A cat <span className="text-[#5CABFA]">lover</span> @ home
+          A <span className="text-[#5CABFA]">cat lover</span> @ home
         </h2>
 
         {/* Replace this text with your short bio or tagline */}
