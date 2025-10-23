@@ -45,7 +45,7 @@ const Scene: React.FC = () => {
         />
 
         {/* Load your 3D model here */}
-        <Suspense fallback={null}>
+        <Suspense fallback={"Loader"}>
           <Model />
         </Suspense>
 
