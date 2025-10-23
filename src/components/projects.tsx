@@ -62,7 +62,7 @@ const Projects: React.FC = () => {
                   target="_blank"
                   className="inline-block mt-4 text-[#5CABFA] hover:underline"
                 >
-                  view project →
+                  Watch Arcane →
                 </a>
               </div>
             </motion.div>
